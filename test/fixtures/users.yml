@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  provider: MyString
+  pid: MyString
+  username: MyString
+  discriminator: MyString
+  avatar: MyString
+  bot: MyString
+  mfa_enabled: MyString
+  locale: MyString
+  verified: MyString
+  flags: MyString
+  premium_type: MyString
+
+two:
+  provider: MyString
+  pid: MyString
+  username: MyString
+  discriminator: MyString
+  avatar: MyString
+  bot: MyString
+  mfa_enabled: MyString
+  locale: MyString
+  verified: MyString
+  flags: MyString
+  premium_type: MyString
