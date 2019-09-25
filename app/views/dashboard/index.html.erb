@@ -2,5 +2,6 @@
 <p>
   The time is now: <%= Time.now %>
 
-  <a href="https://discordapp.com/api/oauth2/authorize?client_id=623342812502425611&redirect_uri=https://villain-dkp.herokuapp.com/auth/discord&response_type=code&scope=identify">Login</a>
+  <%= link_to "Login With Discord", user_discord_omniauth_authorize_path %>
+  <%= link_to "Logout", destroy_user_session_path %>
 </p>
